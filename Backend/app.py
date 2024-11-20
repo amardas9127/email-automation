@@ -6,8 +6,8 @@ app = Flask(__name__)
 CORS(app)  # Allow CORS requests from the React frontend
 
 # Email credentials (replace with your actual credentials)
-EMAIL_ADDRESS = "dotcomdevelopers5824@gmail.com"
-EMAIL_PASSWORD = "eogfvwcceryjqwbm"
+EMAIL_ADDRESS = "your email address"
+EMAIL_PASSWORD = "your password"
 
 @app.route('/send-emails', methods=['POST'])
 def send_emails():
